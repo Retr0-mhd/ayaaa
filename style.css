@@ -25,6 +25,9 @@ main {
   flex: 1;
   background: linear-gradient(to left top, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.2));
   border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .content {
@@ -40,6 +43,18 @@ main {
   height: 80%;
   width: 80%;
   border-radius: 2%;
+}
+
+.user {
+  margin-bottom: 110%;
+  background: red;
+  height: 8rem;
+  width: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 1024px) {
