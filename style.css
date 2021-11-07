@@ -57,7 +57,7 @@ main {
   overflow: hidden;
 }
 
-@media screen and (min-height: 800px) {
+@media screen and (min-height: 812px) {
   .glass {
     min-height: 20vh !important;
     width: 60%;
